@@ -1,7 +1,3 @@
-import * as dotenv from 'dotenv';
-dotenv.config();
-
-console.log(process.env.MYSQL_HOST);
 const connection = {
   host: process.env.MYSQL_HOST,
   user: process.env.MYSQL_USER,
