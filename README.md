@@ -69,6 +69,7 @@ You can view the live project at [Live Project Link](#).
 - **Objection.js**: ORM for Node.js, built on Knex.js. [Documentation](https://vincit.github.io/objection.js/)
 - **mysql2**: Fast MySQL driver for Node.js. [Documentation](https://sidorares.github.io/node-mysql2/docs)
 - **axios**: JavaScript library for making HTTP requests. [Documentation](https://axios-http.com/)
+- **dotenv**: JavaScript library for handling environment variables. [Documentation](https://github.com/motdotla/dotenv#readme)
 
 ## Additional Commands
 
