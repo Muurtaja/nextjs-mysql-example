@@ -86,7 +86,7 @@ You can view the live project at [Live Project Link](#).
 
 ## Creating Models
 
-1. Copy and modify existing model from `pages\Models\User.ts`.
+1. Copy and modify existing model from `database\Models\User.ts`.
 2. Update the class name and database table name as needed.
 3. Refer to the [Objection.js documentation](https://vincit.github.io/objection.js/guide/models.html#examples) for more details on defining models.
 

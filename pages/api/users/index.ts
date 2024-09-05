@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import User from "../../Models/User";
+import User from "../../../database/Models/User";
 
-export default async (req: NextApiRequest, res: NextApiResponse) => {
+const actions = async (req: NextApiRequest, res: NextApiResponse) => {
   const { method } = req;
 
   switch (method) {
@@ -28,3 +28,4 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       res.status(405).end(`Method ${method} Not Allowed`);
   }
 };
+export default actions;
